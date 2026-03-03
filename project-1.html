@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales & Customer Dashboard 2025 - Thien's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-1.css"> 
+</head>
+<body id="top" class="project-page dark-theme-project">
+
+    <header class="project-header">
+        <a href="index.html#portfolio" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+        <div class="logo" style="position: static; color: var(--text-white);">TG</div>
+    </header>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <p class="project-category" style="color: #f4c553;">Data Visualization &bull; Power BI</p>
+            <h1 class="project-title">Sales & Customer Dashboard 2024-2025</h1>
+            <div class="project-tags">
+                <span>Power BI</span>
+                <span>DAX</span>
+                <span>Star Schema</span>
+                <span>Business Intelligence</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-details-dark">
+        <div class="content-container-wide">
+            
+            <div class="dark-info-card overview-card">
+                <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+                <div class="card-text">
+                    <h3>The Challenge & Goal</h3>
+                    <p>An electronics retail company needed a comprehensive view of their 2024 and 2025 performance. The goal was to move beyond simple spreadsheets and create an interactive tool to evaluate Year-over-Year (YoY) growth, diagnose profitability issues at the product level, and identify VIP customer segments for targeted marketing.</p>
+                </div>
+            </div>
+
+            <div class="dashboard-showcase layout-left">
+                <div class="showcase-image glow-effect">
+                    <img src="images/pj1/Sales_Dashboard.png" alt="Sales Dashboard Power BI">
+                </div>
+                <div class="showcase-insights">
+                    <h3><span class="highlight-text">01.</span> Sales Performance Insights</h3>
+                    <p>The Sales view provides a high-level overview of revenue vs. profit dynamics.</p>
+                    <ul>
+                        <li><strong>The Growth Paradox:</strong> Revenue hit a record <strong>$19.5M (+17.7% YoY)</strong>, yet total profit <strong>dropped by 12.9%</strong>. This immediately flags an urgency to investigate rising operational costs or COGS.</li>
+                        <li><strong>Product Profitability:</strong> While Laptops drive revenue, accessories like <em>Cooling Pads</em> and <em>Servers</em> are operating at a loss (negative margin), suggesting a need for pricing strategy revision.</li>
+                    </ul>
+                    <div class="tech-stack-mini">
+                        <i class="fas fa-code"></i> <strong>Key DAX Used:</strong> YoY Growth %, Moving Average 3M, Margin %.
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-showcase layout-right reverse">
+                <div class="showcase-image glow-effect">
+                     <img src="images/pj1/Customer_Dashboard.png" alt="Customer Dashboard Power BI">
+                </div>
+                <div class="showcase-insights order-text">
+                    <h3><span class="highlight-text">02.</span> Customer Behavior Analysis</h3>
+                    <p>Shifting focus to the 1,139 active customers to understand retention and value.</p>
+                    <ul>
+                        <li><strong>Shopping Patterns:</strong> The distribution histogram reveals that most customers fall into the "mid-range" order frequency (600-855 units), indicating a stable customer base.</li>
+                        <li><strong>VIP Identification:</strong> We successfully isolated the top 10 most profitable clients. The top customer alone contributed over <strong>$554K profit</strong>. These insights are crucial for designing exclusive loyalty programs.</li>
+                    </ul>
+                    <div class="tech-stack-mini">
+                        <i class="fas fa-database"></i> <strong>Data Model:</strong> Star Schema connecting Sales fact table with Customer dimension.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <a href="#top" class="back-to-top">
+            <i class="fas fa-angle-double-up"></i><br>BACK TO TOP
+        </a>
+        <p class="copyright">@2026 Thien. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

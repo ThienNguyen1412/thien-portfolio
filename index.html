@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="images/Icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+    <header class="hero-section elegant-hero">
+        
+        <nav class="navbar-elegant">
+            <div class="logo-elegant">NT<span class="dot">.</span></div>
+            <div class="nav-links-elegant">
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Project</a>
+                <a href="#contact" class="btn-contact-outline">CONTACT ME</a>
+            </div>
+        </nav>
+
+        <div class="hero-container-elegant">
+            <div class="hero-text-elegant">
+                <p class="greeting-text">HI, I AM</p>
+                <h1 class="name-text">Nguyễn Thiện</h1>
+                <h2 class="role-text">Data Analyst</h2>
+                
+                <p class="desc-text">
+                Transforming complex datasets into clear,
+                compelling stories. 
+                I specialize in data analysis and visualization to deliver
+                actionable insights that drive strategic business decisions.
+                </p>
+                
+                <div class="hero-actions-elegant">
+                    <a href="#portfolio" class="btn-explore">View My Work</a>
+                    <div class="socials-elegant">
+                        <a href="mailto:nguyenminhthien14012004@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/ThienNguyen1412"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thiện-nguyễn-b616ab363" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-elegant">
+                <img src="images/HinhAnh.png" alt="Nguyễn Thiện Data Analyst" class="img-profile-elegant">
+            </div>
+        </div>
+        
+    </header>
+
+    <section class="data-philosophy-section">
+        <div class="philosophy-content">
+            <h2 class="philosophy-subtitle">MY PHILOSOPHY</h2>
+            <h1 class="philosophy-title">Bridging the Gap Between <span class="highlight-gold">Data</span> and <span class="highlight-gold">Decisions</span></h1>
+            <p class="philosophy-text">In a world overwhelmed by information, my mission is to cut through the noise. I don't just process numbers; I uncover hidden patterns, build intuitive dashboards, and translate complex datasets into clear, actionable business strategies.</p>
+
+            <div class="core-pillars">
+                <div class="pillar">
+                    <i class="fas fa-database"></i>
+                    <h3>Analyze</h3>
+                    <p>Cleaning and modeling raw data to ensure accuracy and structural readiness for deep insights.</p>
+                </div>
+                <div class="pillar">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Visualize</h3>
+                    <p>Designing interactive, user-friendly dashboards that tell a compelling and intuitive story.</p>
+                </div>
+                <div class="pillar">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Optimize</h3>
+                    <p>Delivering actionable intelligence that drives sustainable growth and operational efficiency.</p>
+                </div>
+            </div>
+        </div>
+    <section class="about-me-elegant" id="about">
+        <div class="about-container">
+            <div class="section-title-elegant">
+                <h2>ABOUT ME</h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="about-content-wrapper">
+                <div class="about-text-area">
+                    <p class="intro-p">Hello! I'm Thiện, a passionate Data Analyst with a knack for turning complex numbers into strategic business decisions.</p>
+                    <p>With a strong foundation in statistics and programming, I specialize in data mining, interactive dashboard creation, and ETL processes. I believe that data is only as good as the story it tells, which is why I constantly focus on clean visualizations, deep analytics, and actionable insights to empower businesses.</p>
+                    
+                    <a href="CV_NguyenThien_DataAnalyst.pdf" download="CV_NguyenThien_DataAnalyst.pdf" class="btn-download-cv">
+                            <i class="fas fa-file-download"></i> Download CV
+                    </a>
+                </div>
+
+                <div class="about-services-area">
+                    <div class="da-service-box">
+                        <i class="fas fa-project-diagram"></i>
+                        <div class="da-service-text">
+                            <h3>Data Modeling</h3>
+                            <p>Architecting robust data structures (Star Schema, Snowflake) to ensure efficient reporting and seamless analytics.</p>
+                        </div>
+                    </div>
+                    <div class="da-service-box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="da-service-text">
+                            <h3>Business Intelligence</h3>
+                            <p>Crafting interactive Power BI & Tableau dashboards that provide real-time visibility into business KPIs.</p>
+                        </div>
+                    </div>
+                    <div class="da-service-box">
+                        <i class="fas fa-database"></i>
+                        <div class="da-service-text">
+                            <h3>ETL & Automation</h3>
+                            <p>Streamlining data pipelines using SQL and Python to automate data extraction, transformation, and loading.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-elegant" id="skills">
+        <div class="section-title-elegant" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <h2>CORE SKILLS</h2>
+            <div class="gold-line"></div>
+        </div>
+        
+        <div class="skills-content">
+<h3 class="using-now-title">TOOLS & TECHNOLOGIES</h3>            
+            <div class="skills-grid">
+                <div class="skill-item" onclick="showSkill('powerbi')">
+                    <i class="fas fa-chart-bar" style="color: #f4c553;"></i>
+                    <p>POWER BI</p>
+                </div>
+                <div class="skill-item" onclick="showSkill('sql')">
+                    <i class="fas fa-database" style="color: #61dbfb;"></i>
+                    <p>SQL</p>
+                </div>
+                <div class="skill-item" onclick="showSkill('excel')">
+                    <i class="fas fa-file-excel" style="color: #21a366;"></i>
+                    <p>ADV. EXCEL</p>
+                </div>
+                <div class="skill-item" onclick="showSkill('python')">
+                    <i class="fab fa-python" style="color: #4b8bbe;"></i>
+                    <p>PYTHON</p>
+                </div>
+                <div class="skill-item" onclick="showSkill('tableau')">
+                    <i class="fas fa-chart-line" style="color: #e97627;"></i>
+                    <p>TABLEAU</p>
+                </div>
+                <div class="skill-item" onclick="showSkill('modeling')">
+                    <i class="fas fa-sitemap" style="color: #cc6699;"></i>
+                    <p>DATA MODELING</p>
+                </div>
+                <div class="skill-item" onclick="showSkill('dax')">
+                    <i class="fas fa-code" style="color: #9b59b6;"></i>
+                    <p>DAX</p>
+                </div>
+                <div class="skill-item" onclick="showSkill('mining')">
+                    <i class="fas fa-network-wired" style="color: #e74c3c;"></i>
+                    <p>DATA MINING</p>
+                </div>
+            </div>
+
+            <div id="skill-detail-box" class="skill-detail-box">
+                <h3 id="skill-title">Click on a skill</h3>
+                <div class="gold-line" style="margin: 10px auto; width: 40px; height: 2px;"></div>
+                <p id="skill-desc">Select an icon above to view my experience and proficiency details.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-grid-section" id="portfolio">
+        <div class="portfolio-container">
+            <div class="section-header">
+                <h2>Project</h2>
+                <div class="yellow-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <a href="project-1.html" class="project-card">
+                    <div class="card-image">
+                        <img src="images/pj1/Thumbnail.png" alt="Bakery Data Analysis">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-meta">Data Mining &bull; Sep 2025 - Oct 2025</p>
+                        <h3 class="card-title">TECHNICAL SALES PERFORMANCE DASHBOARD</h3>
+<p class="card-excerpt">Developed an interactive dashboard for an electronics retail company to evaluate YoY growth, diagnose product profitability, and identify VIP customer segments.</p>                    </div>
+                </a>
+
+                <a href="project-2.html" class="project-card">
+                    <div class="card-image">
+                        <img src="images/pj2/Thumbnail.png" alt="Medical System Data">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-meta">Data Visualization &bull; Oct 2025 - Dec 2025</p>
+                        <h3 class="card-title">HOSPITAL PATIENT ANALYTICS</h3>
+<p class="card-excerpt">Analyzed a medical appointment booking and support system, visualizing patient flows and healthcare operations using Power BI.</p>                    </div>
+                </a>
+
+                <a href="project-3.html" class="project-card">
+                    <div class="card-image">
+                        <img src="images/pj3/Thumbnail.png" alt="Recruitment Admin Dashboard">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-meta">Web Analytics &bull; Dec 2025 - Jan 2026</p>
+                        <h3 class="card-title">Recruitment Admin Dashboard</h3>
+                        <p class="card-excerpt">Designed and built a data analytics system for a recruitment platform: tracking KPIs, applicant behavior, and job posting management.</p>
+                    </div>
+                </a>
+
+                 <a href="project-4.html" class="project-card">
+                    <div class="card-image">
+                        <img src="images/pj4/Thumbnail.png" alt="Vietnam Socio-Economic Analysis">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-meta">Macroeconomics &bull;  Jan 2026 - Feb 2026</p>
+                        <h3 class="card-title">Vietnam Economic Dashboard</h3>
+                        <p class="card-excerpt">Analyzed macroeconomic data, GDP, GRDP, and demographics of Vietnam using a model that merges data from 34 provinces.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+<section class="contact-elegant" id="contact">
+        <div class="contact-container">
+            <div class="section-title-elegant" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+                <h2>GET IN TOUCH</h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="contact-content-wrapper">
+                <div class="contact-info">
+                    <h3>Let's Talk Data</h3>
+                    <p>Whether you have a project in mind, need a data-driven solution to optimize your business, or just want to connect, feel free to reach out. I am currently open to new opportunities.</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nguyenminhthien14012004@email.com</span> </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ho Chi Minh City, Vietnam</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/thiện-nguyễn-b616ab363</span> </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-area">
+                    <form action="https://formspree.io/f/mykdagrz" method="POST" class="elegant-form">
+                        <div class="input-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" placeholder="How can I help you?" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit-elegant">
+                            SEND MESSAGE <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <a href="#top" class="back-to-top">
+            <i class="fas fa-angle-double-up"></i><br>
+            BACK TO TOP
+        </a>
+        
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/nguyen.minhthien.752/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/thiện-nguyễn-b616ab363" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/ThienNguyen1412" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:nguyenminhthien14012004@gmail.com"><i class="far fa-envelope"></i></a>
+        </div>
+        
+        <p class="copyright">@2026 Thiện All Rights Reserved.</p>
+    </footer>
+
+<script>
+        window.addEventListener('scroll', function() {
+            var navbar = document.querySelector('.navbar');
+            // Nếu cuộn xuống quá 50px thì thêm class 'scrolled'
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled'); // Lên đỉnh thì xóa đi
+            }
+        });
+
+
+        // Xử lý đổi màu thanh Menu khi cuộn
+        window.addEventListener('scroll', function() {
+            var navbar = document.querySelector('.navbar-elegant');
+            if (window.scrollY > 50) {
+                navbar.style.backgroundColor = 'rgba(22, 22, 26, 0.95)';
+                navbar.style.boxShadow = '0 5px 20px rgba(0,0,0,0.5)';
+            } else {
+                navbar.style.backgroundColor = 'transparent';
+                navbar.style.boxShadow = 'none';
+            }
+        });
+
+        // Dữ liệu chi tiết cho từng kỹ năng Data Analyst
+        const skillsData = {
+            powerbi: {
+                title: "POWER BI",
+                desc: "Advanced proficiency in building interactive dashboards, visualizing complex datasets, and delivering actionable business intelligence."
+            },
+            sql: {
+                title: "SQL",
+                desc: "Strong ability to write complex queries, perform data extraction, and manage relational databases for robust ETL pipelines."
+            },
+            excel: {
+                title: "ADVANCED EXCEL",
+                desc: "Expertise in data cleaning, Power Query, pivot tables, and macroeconomic data consolidation for deep financial analysis."
+            },
+            python: {
+                title: "PYTHON",
+                desc: "Utilizing Python for data mining tasks, including implementing algorithms like Apriori to uncover hidden association rules and patterns."
+            },
+            tableau: {
+                title: "TABLEAU",
+                desc: "Creating visually impactful and highly interactive geospatial maps and charts to uncover trends in large-scale datasets."
+            },
+            modeling: {
+                title: "DATA MODELING",
+                desc: "Designing optimized Star and Snowflake schemas to ensure efficient reporting and seamless analytics across disparate hospital or retail systems."
+            },
+            dax: {
+                title: "DAX",
+                desc: "Writing advanced Data Analysis Expressions for time-intelligence (YoY, MoM), running totals, and dynamic KPI calculations."
+            },
+            mining: {
+                title: "DATA MINING",
+                desc: "Extracting valuable patterns from raw data, optimizing cross-selling strategies, and segmenting VIP customer behaviors."
+            }
+        };
+
+        // Hàm xử lý khi click vào kỹ năng
+        function showSkill(skillKey) {
+            const detailBox = document.getElementById('skill-detail-box');
+            const titleEl = document.getElementById('skill-title');
+            const descEl = document.getElementById('skill-desc');
+
+            // Cập nhật nội dung
+            titleEl.innerText = skillsData[skillKey].title;
+            descEl.innerText = skillsData[skillKey].desc;
+
+            // Hiển thị khung với hiệu ứng
+            detailBox.classList.add('active');
+        }
+    </script>
+
+</body>
+</html>

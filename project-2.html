@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Patient Dashboard - Thien's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-2.css"> 
+</head>
+<body id="top" class="project-page dark-theme-project">
+
+    <header class="project-header">
+        <a href="index.html#portfolio" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+        <div class="logo" style="position: static; color: var(--text-white);">TG</div>
+    </header>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <p class="project-category" style="color: #f4c553;">Healthcare Analytics &bull; Data Modeling</p>
+            <h1 class="project-title">Hospital Patient Dashboard</h1>
+            <div class="project-tags">
+                <span>Power BI</span>
+                <span>Data Modeling</span>
+                <span>EHR Analysis</span>
+                <span>DAX</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-details-dark">
+        <div class="content-container-wide">
+            
+            <div class="dark-info-card overview-card">
+                <div class="card-icon"><i class="fas fa-hospital-user"></i></div>
+                <div class="card-text">
+                    <h3>Context & Problem</h3>
+                    <p>Modern healthcare facilities generate massive amounts of Electronic Health Records (EHR). Doctors and administrators often struggle to get a quick, comprehensive overview of an individual patient's medical journey. The objective of this project was to build a robust data model and design a centralized Patient Dashboard that consolidates clinical and financial data.</p>
+                </div>
+            </div>
+
+            <div class="dashboard-showcase layout-left">
+                <div class="showcase-image glow-effect">
+                    <img src="images/pj2/ERD.png" alt="Data Modeling ERD">
+                </div>
+                <div class="showcase-insights">
+                    <h3><span class="highlight-text">01.</span> Data Architecture & ERD</h3>
+                    <p>Before building visuals, a solid foundation was required. I designed a relational data model (Star Schema approach) to connect fragmented hospital systems.</p>
+                    <ul>
+                        <li><strong>Fact & Dimension Tables:</strong> Centralized `patient_info` acts as the core, linking to critical operational tables like `appointment`, `patient_tests`, and `Bills`.</li>
+                        <li><strong>Inventory & Pharmacy Tracking:</strong> Connected `medical_stock_info` with `medicine_patient` to accurately track drug administration and stock levels.</li>
+                        <li><strong>Time Intelligence:</strong> Integrated a `CALENDAR` table to enable precise time-based DAX calculations (e.g., length of stay, monthly revenue).</li>
+                    </ul>
+                    <div class="tech-stack-mini">
+                        <i class="fas fa-project-diagram"></i> <strong>Focus:</strong> 1-to-Many Relationships, Data Normalization.
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-showcase layout-right reverse">
+                <div class="showcase-image glow-effect">
+                     <img src="images/pj2/Dashboard.png" alt="Hospital Patient Dashboard">
+                </div>
+                <div class="showcase-insights order-text">
+                    <h3><span class="highlight-text">02.</span> Patient Insights & Financials</h3>
+                    <p>The final Power BI dashboard provides an immersive, holistic profile for each patient, aiding clinical decisions.</p>
+                    <ul>
+                        <li><strong>Holistic Profile:</strong> Instantly displays demographics, primary diagnosis (e.g., Acid Reflux), and calculates the exact admission duration.</li>
+                        <li><strong>Financial Transparency:</strong> Breaks down the total bill (e.g., 43.11K) into specific categories like Surgery, Room, and Tests, ensuring clear billing.</li>
+                        <li><strong>Medication Adherence:</strong> Uses a custom calendar matrix to track medicine intake by day, helping doctors monitor treatment effectively.</li>
+                    </ul>
+                    <div class="tech-stack-mini">
+                        <i class="fas fa-chart-pie"></i> <strong>Visuals:</strong> Matrix Calendar, Bar Charts, Custom UI.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <a href="#top" class="back-to-top">
+            <i class="fas fa-angle-double-up"></i><br>BACK TO TOP
+        </a>
+        <p class="copyright">@2026 Thien. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam Socio-Economic Dashboard - Thien's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-4.css"> 
+</head>
+<body id="top" class="project-page dark-theme-project">
+
+    <header class="project-header">
+        <a href="index.html#portfolio" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+        <div class="logo" style="position: static; color: var(--text-white);">TG</div>
+    </header>
+
+    <section class="project-hero">
+        <div class="project-hero-content">
+            <p class="project-category" style="color: #f4c553;">Macroeconomics &bull; Data Visualization</p>
+            <h1 class="project-title">Vietnam Socio-Economic Analysis (Post-Merger)</h1>
+            <div class="project-tags">
+                <span>Power BI</span>
+                <span>Data Engineering</span>
+                <span>Geospatial Analysis</span>
+                <span>Macroeconomics</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-details-dark">
+        <div class="content-container-wide">
+            
+            <div class="dark-info-card overview-card">
+                <div class="card-icon"><i class="fas fa-globe-asia"></i></div>
+                <div class="card-text">
+                    <h3>The Context & Goal</h3>
+                    <p>This project simulates a macroeconomic analysis of Vietnam under a hypothetical administrative restructuring (merging 63 provinces into 34). The goal was to consolidate massive demographic and financial datasets, calculate new regional key performance indicators (KPIs), and build an interactive Power BI dashboard to evaluate the economic disparities across the newly formed regions.</p>
+                </div>
+            </div>
+
+            <div class="dashboard-showcase layout-left">
+                <div class="showcase-image glow-effect">
+                    <img src="images/pj4/Provinces of VN.png" alt="Raw Data Processing in Excel">
+                </div>
+                <div class="showcase-insights">
+                    <h3><span class="highlight-text">01.</span> Data Processing & Aggregation</h3>
+                    <p>Robust data preparation is the backbone of accurate economic analysis.</p>
+                    <ul>
+                        <li><strong>Data Consolidation:</strong> Extracted and merged datasets containing Area (km2), Population, GRDP 2024, State Budget Revenue, and Per Capita Income for the proposed 34 provinces.</li>
+                        <li><strong>Data Transformation:</strong> Cleaned formatting inconsistencies and established precise formulas to derive secondary metrics like population density and regional GDP contributions.</li>
+                        <li><strong>Structuring for BI:</strong> Formatted the flat data into a relational structure suitable for Power BI's Data Model, ensuring smooth slicing and dicing by region and sub-region.</li>
+                    </ul>
+                    <div class="tech-stack-mini">
+                        <i class="fas fa-file-excel"></i> <strong>Focus:</strong> ETL Process, Data Cleaning, Derived Metrics.
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-showcase layout-right reverse">
+                <div class="showcase-image glow-effect">
+                     <img src="images/pj4/Dashboard.png" alt="Vietnam Macroeconomic Power BI Dashboard">
+                </div>
+                <div class="showcase-insights order-text">
+                    <h3><span class="highlight-text">02.</span> Macroeconomic Insights & Visualization</h3>
+                    <p>The interactive dashboard translates millions of data points into a clear, strategic overview of the nation's economic health.</p>
+                    <ul>
+                        <li><strong>High-Level KPIs:</strong> Instantly tracks national totals: <strong>$483.86B GDP</strong>, <strong>113.57M Population</strong>, and an average income of <strong>$4.26K/person</strong>.</li>
+                        <li><strong>Regional Disparity Analysis:</strong> The Donut chart and Treemap clearly illustrate that the Southern region (Miền Nam) and Southeast (Đông Nam Bộ) are the primary economic engines, contributing nearly 42.7% to the national GDP.</li>
+                        <li><strong>Geospatial & Top Performers:</strong> Integrated an interactive map of the 34 provinces alongside a bar chart highlighting Ho Chi Minh City ($112.7B) and Hanoi ($59.2B) as the dominant economic hubs.</li>
+                    </ul>
+                    <div class="tech-stack-mini">
+                        <i class="fas fa-chart-area"></i> <strong>Visuals:</strong> Treemaps, Geospatial Map, Dynamic Matrix.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <a href="#top" class="back-to-top">
+            <i class="fas fa-angle-double-up"></i><br>BACK TO TOP
+        </a>
+        <p class="copyright">@2026 Thien. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

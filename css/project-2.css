@@ -1,0 +1,166 @@
+/* ========================================= */
+/* CSS RIÊNG CHO PROJECT 2 (DARK MODE)       */
+/* ========================================= */
+
+body.dark-theme-project {
+    background-color: #121212; 
+    color: #e0e0e0;
+}
+
+.project-details-dark {
+    padding: 60px 20px 100px;
+}
+
+.content-container-wide {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+/* --- Dark Info Card --- */
+.dark-info-card {
+    background-color: #1f1f1f; 
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 30px;
+    border: 1px solid #333;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card-icon {
+    font-size: 3rem;
+    color: #f4c553; 
+    flex-shrink: 0;
+}
+
+.dark-info-card h3 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.dark-info-card p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #cccccc;
+}
+
+/* --- Dashboard Showcase (Zig-Zag) --- */
+.dashboard-showcase {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+.dashboard-showcase.reverse {
+    flex-direction: row-reverse;
+}
+
+.showcase-image {
+    flex: 3; 
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.showcase-image img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.glow-effect {
+    box-shadow: 0 0 20px rgba(244, 197, 83, 0.15), 
+                0 10px 40px rgba(0,0,0,0.6);
+    border: 1px solid rgba(244, 197, 83, 0.1);
+}
+
+.showcase-insights {
+    flex: 2; 
+}
+
+.highlight-text {
+    color: #f4c553;
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.showcase-insights h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.showcase-insights p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #d1d1d1;
+}
+
+.showcase-insights ul {
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.showcase-insights li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.showcase-insights li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background-color: #f4c553;
+    border-radius: 50%;
+}
+
+.showcase-insights strong {
+    color: #ffffff;
+}
+
+.tech-stack-mini {
+    background-color: #262626;
+    padding: 15px 25px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    border: 1px solid #444;
+}
+
+.tech-stack-mini i {
+    color: #f4c553;
+}
+
+@media (max-width: 992px) {
+    .dashboard-showcase, 
+    .dashboard-showcase.reverse {
+        flex-direction: column; 
+        gap: 40px;
+    }
+
+    .showcase-image, .showcase-insights {
+        flex: auto;
+        width: 100%;
+    }
+    
+    .dark-info-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+    .card-icon {
+        margin-bottom: 10px;
+    }
+}
